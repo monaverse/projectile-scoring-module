@@ -72,14 +72,14 @@ public class MonaProjectileModuleEditor : Editor
 
         //GUILayout.Space(1);
 
-        //// BUTTON 2
+        // BUTTON 2
 
-        //if (GUILayout.Button(MonaProjectileModule.ButtonTitle2, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
-        //{
-        //    Application.OpenURL(MonaProjectileModule.Link2);
-        //}
+        if (GUILayout.Button(MonaProjectileModule.ButtonTitle2, hyperlinkTextStyle, GUILayout.Height(textSize + buttonSpace)))
+        {
+            Application.OpenURL(MonaProjectileModule.Link2);
+        }
 
-        //GUILayout.Space(1);
+        GUILayout.Space(1);
 
         // BUTTON 3
 

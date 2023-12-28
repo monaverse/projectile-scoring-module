@@ -10,7 +10,7 @@ public class MonaProjectileModule : MonoBehaviour
     public string ButtonTitle2 = "Module Tutorial Video";
     public string ButtonTitle3 = "Mona Playground";
     public string Link1 = "https://www.youtube.com/watch?v=CJP4qcQZNpE";
-    public string Link2 = "https://www.youtube.com/watch?v=fmEzmGpeBW4";
+    public string Link2 = "https://www.youtube.com/watch?v=tvGVe0BoWBY";
     public string Link3 = "https://docs.monaverse.com/create/resources/mona-playground";
 
 
