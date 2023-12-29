@@ -53,8 +53,15 @@ public class MonaProjectileModuleEditor : Editor
 
         // CREDITS TEXT
 
-        EditorGUILayout.LabelField(MonaProjectileModule.Text1, textStyle, GUILayout.Height(textSize + 4));
-        EditorGUILayout.LabelField(MonaProjectileModule.Text2, textStyle, GUILayout.Height(textSize + 4));
+        if (!string.IsNullOrEmpty(MonaProjectileModule.Text1))
+        {
+            EditorGUILayout.LabelField(MonaProjectileModule.Text1, textStyle, GUILayout.Height(textSize + 4));
+        }
+
+        if (!string.IsNullOrEmpty(MonaProjectileModule.Text2))
+        {
+            EditorGUILayout.LabelField(MonaProjectileModule.Text2, textStyle, GUILayout.Height(textSize + 4));
+        }
 
         // BUTTONS STYLE
 

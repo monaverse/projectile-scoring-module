@@ -3,9 +3,9 @@ using UnityEngine;
 public class MonaProjectileModule : MonoBehaviour
 {
     [HideInInspector]
-    public string imagePath = "Assets/_MonaLibrary/VS/Projectile Module/_Assets/Mona-Logo.png";
+    public string imagePath = "Assets/_MonaLibrary/_Assets/Mona-Logo.png";
     public string Text1 = "";
-    public string Text2 = "Projectile and Scoring Module";
+    public string Text2 = "";
     public string ButtonTitle1 = "Workshop Video";
     public string ButtonTitle2 = "Module Tutorial Video";
     public string ButtonTitle3 = "Mona Playground";
